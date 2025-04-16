@@ -6,7 +6,7 @@ using DG.Tweening;
 using TMPro;
 using UnityEngine.Networking;
 
-public class WordManager : MonoBehaviour
+public class WordManager : Singleton<WordManager>
 {
     public static WordManager Instance;
 
